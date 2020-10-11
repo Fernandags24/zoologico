@@ -1,0 +1,157 @@
+*{ 
+margin: 0;
+padding: 0;
+ }
+.navegacion{
+	width: 1000px;
+	margin: 30px;
+	background:#FFF301;
+	border: solid 2px #000000;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+    /*position: relative;*/
+	display: inline-block;
+}
+.menu > li >a {
+	display: block;
+	padding: 50px 10px;
+	color: #fff;
+	font-family:´open sans´;
+	text-decoration: none; 
+	font-size:2em;
+}
+.menu li a: hover {
+	color: #CE7D35;
+}
+/*submenu */
+ .submenu{ 
+ position: absolute;
+ background:#FFF301;
+ border: solid 2px #000000;
+ display: none;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: ´open sans´;
+	text-decoration: none; 
+}
+.menu li:hover .submenu{
+	display:inline-block;
+}
+
+.center{
+	display: flex;
+	justify-content:center;
+	align-items: center; 
+	padding :20px;
+}
+h1{
+	border: solid 2px #000000;
+	text-align: center;
+	background:#FD0404;
+	font-size: 5em;
+	margin: 30px;
+	padding: 10px 10px;
+}
+h2{
+	border: solid 2px #000000;
+	text-align: center;
+	background:#FD0404;
+	font-size: 2em;
+	padding: 2px 2px ;
+	margin: 10px;
+}
+h3{
+	border: solid 2px #000000;
+	text-align: center;
+	background:#01FF01;
+	font-size: 4em;
+	padding: 1px 1px ;
+	margin: 0px;
+}
+h4{
+	text-align: center;
+	background:#638063;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 4em;
+	
+
+}
+.cente{
+	text-align: center;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 2em;
+} 
+.centr{
+	text-align: center;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 2em;
+} 
+.centro{
+	text-align: center;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 2em;
+}
+.parra{
+	text-align: center;
+	background:#2EBD04;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 1em;
+} 
+.parraf{
+	text-align: center;
+	background:#E301E3;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 1em;
+}
+.parrafo{
+	text-align: center;
+	background:#01FF01;
+	border: solid 2px #fff;
+	margin: 5px;
+	font-size: 1em;
+}
+h5{
+	text-align: center;
+	background:#08FADD;
+	border: solid 2px #000000;
+	margin: 5px;
+	font-size: 4em;
+}
+.hache{
+	text-align: center;
+	background:#01BAE3;
+	border: solid 2px #000000;
+	margin: 5px;
+	font-size: 4em;
+}
+.autor{
+	text-align: center;
+	background:#01BAE3;
+	border: solid 2px #000000;
+	margin: 5px;
+	font-size: 1em;
+}
+h6{
+	text-align: center;
+	background:#08FADD;
+	border: solid 2px #000000;
+	margin: 5px;
+	font-size: 4em;
+}
+
+
+body{ 
+background-size: 100% ,100% ;
+ }
