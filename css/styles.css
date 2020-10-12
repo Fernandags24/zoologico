@@ -5,8 +5,7 @@ padding: 0;
 .navegacion{
 	width: 1000px;
 	margin: 30px;
-	background:#FFF301;
-	border: solid 2px #000000;
+	
 }
 .navegacion ul{
 	list-style: none;
