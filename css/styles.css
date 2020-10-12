@@ -18,10 +18,26 @@ padding: 0;
 .menu > li >a {
 	display: block;
 	padding: 50px 10px;
-	color: #fff;
+	color: #000000;
 	font-family:´open sans´;
 	text-decoration: none; 
 	font-size:2em;
+}
+.diseño{
+	border: solid 2px #000000;
+	background: #64FF33;
+}
+.diseñ{
+	border: solid 2px #000000;
+	background: #33FFF0;
+}
+.dise{
+	border: solid 2px #000000;
+	background: #DD33FF;
+}
+.dis{
+	border: solid 2px #000000;
+	background: #FFFF33;
 }
 .menu li a: hover {
 	color: #CE7D35;
